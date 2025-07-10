@@ -17,7 +17,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         // Voice message first
         await conn.sendMessage(from, { 
-    audio: { url: 'https://files.catbox.moe/xb6ple.mp3' }, 
+    audio: { url: 'https://files.catbox.moe/wupmpp.mp3' }, 
     mimetype: 'audio/mp4', 
     ptt: true,
     contextInfo: { 
@@ -26,7 +26,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         isForwarded: true, 
         forwardedNewsletterMessageInfo: { 
             newsletterJid: '120363354023106128@newsletter', 
-            newsletterName: 'ᴍʀ ᴅɪɴᴇꜱʜ', 
+            newsletterName: 'ᴍʀ ʀᴜꜱʜ', 
             serverMessageId: 143 
         } 
     } 
@@ -312,7 +312,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/q7QwF3JS/20250309-015608.jpg` },
+                image: { url: `https://files.catbox.moe/b2rrzo.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -320,7 +320,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106128@newsletter',
-                        newsletterName: 'ᴍʀ ᴅɪɴᴇꜱʜ',
+                        newsletterName: 'ᴍʀ ʀᴜꜱʜ',
                         serverMessageId: 143
                     }
                 }
