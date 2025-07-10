@@ -17,9 +17,9 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || ".✓",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "QUEEN-SADU-MD",
+BOT_NAME: process.env.BOT_NAME || "QUEEN-ISSUE-MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "QUEEN-SADU-MD",
+STICKER_NAME: process.env.STICKER_NAME || "QUEEN-ISSUE-MD",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react    
@@ -27,13 +27,13 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94781536595",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94741835275",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ ᴅɪɴᴇꜱʜ ᴏꜰᴄ",
+OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ ʀᴜꜱʜ ᴏꜰᴄ",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴅɪɴᴇꜱʜ ᴏꜰᴄ*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ʀᴀꜱʜᴍɪᴋᴀ ᴏꜰᴄ*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/ali8ed.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/b2rrzo.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar undefined*⚡",
 // add alive msg here 
