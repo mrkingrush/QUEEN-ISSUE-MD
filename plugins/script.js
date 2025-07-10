@@ -13,19 +13,19 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *MR DINESH*
+*|* *MR RUSHMIKA*
 
-> *QUEEN SADU_MD REPO:*
-*|* *https://github.com/MRDofc/QUEEN-SADU-MD-V2*
+> *QUEEN ISSUE_MD REPO:*
+*|* *https://github.com/mrkingrush/QUEEN-ISSUE-MD*
 
 > *SUPPORT CHENNAL:*
 *|* *https://whatsapp.com/channel/0029Vb0Anqe9RZAcEYc2fT2c*
 > * *SYSTEM SETTING:*
-*|* *ᴍʀ ʟᴀᴋꜱʜᴀɴ*
-*|* *94786528867*
+*|* *ᴍʀ ʀᴜꜱʜ*
+*|* *94741835275*
 *╰──────────────●●►*
 
-> *CREATED BY MR DINESH*
+> *CREATED BY MR RUSH*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
@@ -35,15 +35,15 @@ await conn.sendMessage(from, { text: repo ,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363232588171807@newsletter',
-      newsletterName: "QUEEN SADU",
+      newsletterName: "QUEEN ISSUE",
       serverMessageId: 999
     },
 externalAdReply: { 
-title: 'QUEEN SADU',
+title: 'QUEEN ISSUE',
 body: `${pushname}`,
 mediaType: 1,
-sourceUrl: "https://github.com/mrdinesh595" ,
-thumbnailUrl: "https://i.postimg.cc/C5YSXhHr/20241225-020201.jpg)" ,
+sourceUrl: "https://github.com/mrkingrush" ,
+thumbnailUrl: "https://files.catbox.moe/b2rrzo.jpg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
