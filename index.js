@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94781536595']
+  const ownerNumber = ['94741835275']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -67,7 +67,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("QUEEN-SADU-MD&", '');
+const sessdata = config.SESSION_ID.replace("QUEEN-ISSUE-MD&", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -112,8 +112,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there QUEEN-SADU-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet QUEEN-SADU-MD WhatsApp Bot.\n\n *Thanks for using QUEEN-SADU-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb0Anqe9RZAcEYc2fT2c\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/MRDofc/QUEEN-SADU-MD-V2\n\n> © Powered BY ᴍʀ ᴅɪɴᴇꜱʜ ᴏꜰᴄ \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/ali8ed.jpg` }, caption: up })
+  let up = `*Hello there QUEEN-ISSUE-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet QUEEN-ISSUE-MD WhatsApp Bot.\n\n *Thanks for using QUEEN-ISSUE-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb0Anqe9RZAcEYc2fT2c\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/mrkingrush/QUEEN-ISSUE-MD\n\n> © Powered BY ᴍʀ ʀᴜꜱʜ ᴏꜰᴄ \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/b2rrzo.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -768,7 +768,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("QUEEN-SADU-MD STARTED ✅");
+  res.send("QUEEN-ISSUE-MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
