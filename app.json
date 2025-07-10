@@ -1,8 +1,8 @@
 {
-  "name": "QUEEN-SADU-MD",
-  "description": "Javascript WhatsApp bot made by  ᴍʀ ᴅɪɴᴇꜱʜ ᴏꜰᴄ",
-  "logo": "https://files.catbox.moe/ali8ed.jpg",
-  "keywords": ["QUEEN-SADU-MD"],
+  "name": "QUEEN-ISSUE-MD",
+  "description": "Javascript WhatsApp bot made by  ᴍʀ ʀᴜꜱʜ ᴏꜰᴄ",
+  "logo": "https://files.catbox.moe/b2rrzo.jpg",
+  "keywords": ["QUEEN-ISSUE-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "QUEEN-SADU-MD"
+      "value": "QUEEN-ISSUE-MD"
     }, 
       
     "PREFIX": {
@@ -73,7 +73,7 @@
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_STATUS_MSG": {
@@ -86,20 +86,20 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "ᴍʀ ᴅɪɴᴇꜱʜ ᴏꜰᴄ"
+      "value": "ᴍʀ ʀᴜꜱʜ ᴏꜰᴄ"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "94781536595"
+      "value": "94741835275"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "QUEEN-SADU-MD"
+      "value": "QUEEN-RUSH-MD"
 
       }, 
 
@@ -119,7 +119,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴅɪɴᴇꜱʜ ᴏꜰᴄ*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ʀᴜꜱʜ ᴏꜰᴄ*"
     },
 
       "DELETE_LINKS": {
