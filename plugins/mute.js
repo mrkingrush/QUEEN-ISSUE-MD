@@ -17,7 +17,7 @@ if (!isOwner || !isAdmins) return;
 if (!m.isGroup) return reply(mg.onlygroup);
 if (!isBotAdmins) return reply(mg.needbotadmins);     
             await conn.groupSettingUpdate(m.chat, "announcement")
-           const mass = await conn.sendMessage(m.chat, { text: '*GROUP CHAT MUTED BY QUEEN SADU* 🔒' }, { quoted: mek });
+           const mass = await conn.sendMessage(m.chat, { text: '*GROUP CHAT MUTED BY QUEEN ISSUE* 🔒' }, { quoted: mek });
             return await conn.sendMessage(m.chat, { react: { text: '🔒', key: mass.key } });
 } catch(e) {
 console.log(e);
@@ -42,7 +42,7 @@ if (!isOwner || !isAdmins) return;
 if (!m.isGroup) return reply(mg.onlygroup);
 if (!isBotAdmins) return reply(mg.needbotadmins);     
             await conn.groupSettingUpdate(m.chat, "not_announcement")
-           const mass = await conn.sendMessage(m.chat, { text: '*GROUP CHAT UNMUTED BY QUEEN SADU* 🔒' }, { quoted: mek });
+           const mass = await conn.sendMessage(m.chat, { text: '*GROUP CHAT UNMUTED BY QUEEN ISSUE* 🔒' }, { quoted: mek });
             return await conn.sendMessage(m.chat, { react: { text: '🔒', key: mass.key } });
 } catch(e) {
 console.log(e);
