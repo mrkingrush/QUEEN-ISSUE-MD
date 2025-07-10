@@ -13,7 +13,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let status = `*╭──────────●●►*
-*QUEEN-SADU UPTIME LIST↷*
+*QUEEN-ISSUE UPTIME LIST↷*
 
 *_UPTIME:➠_*  ${runtime(process.uptime())}
 
@@ -21,7 +21,7 @@ let status = `*╭──────────●●►*
 
 *_HOSTNAME:➠_* ${os.hostname()}
 
-*_OWNER:➠_* *MR DINESH*
+*_OWNER:➠_* *MR RUSH*
 
 *_channal link »_*https://whatsapp.com/channel/0029Vb0Anqe9RZAcEYc2fT2c*
 
