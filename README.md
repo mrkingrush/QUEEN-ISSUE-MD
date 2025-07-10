@@ -24,4 +24,4 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
-###𝐊𝐈𝐍𝐆 𝐑𝐔𝐒𝐇 𝐎𝐅𝐂
+# 𝐊𝐈𝐍𝐆 𝐑𝐔𝐒𝐇 𝐎𝐅𝐂
